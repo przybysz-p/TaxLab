@@ -1,0 +1,7 @@
+[project]
+name = "taxlab"
+version = "0.2.0"
+description = "Basic tax calculation utilities and automated testing examples"
+requires-python = ">=3.10"
+[tool.pytest.ini_options]
+testpaths = ["tests"]

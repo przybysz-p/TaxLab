@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+pytest_tmp/
+.hypothesis/
+.venv/
+venv/
+.env
+.env.*
+*.sqlite
+*.sqlite3
+*.db
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+wyniki_testow*.txt
+TaxLab_raport_testow.txt
