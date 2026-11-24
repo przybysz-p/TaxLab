@@ -18,3 +18,14 @@ pytest_tmp/
 
 test-results/
 playwright-report/
+
+# Local load-test outputs (Locust CSV / HTML)
+locust_results/
+
+# SQLite temporary sidecar files (when journal/WAL is used)
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite3-journal
+*.db-wal
+*.db-shm
+*.db-journal
